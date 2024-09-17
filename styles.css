@@ -1,0 +1,98 @@
+ .topnav {
+    background-color: #ec69cb;
+    overflow: hidden;
+  }
+    .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 15px 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #ec69cb;
+  }
+  
+  .topnav a.active {
+    background-color: hsl(303, 75%, 52%);
+    color: white;
+  }
+
+
+  body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(253, 114, 232, 0.321), rgba(242, 128, 255, 0.5));
+  position: absolute;
+width: 100%;
+height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.heropic{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width:400px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif
+}
+
+
+
+.about-section{
+  background-color: #eb73cd;
+    overflow: hidden;
+    text-align: center;
+  color: white;
+}
+
+.photo{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+
+}
+.work-experience{
+  background-color:#ec59c8;
+  overflow: hidden;
+  text-align: center;
+  color: #ddd;
+}
+
+.contact-text{
+  background-color:#f53ac6;
+  overflow: hidden;
+  text-align: center;
+  color:#ddd;
+}
+
+.footer{
+  background-color: #f007b6;
+  overflow: hidden;
+  text-align: center;
+  color:#ddd;
+}
+
